@@ -1,0 +1,64 @@
+html {
+    background-color: #aacff2;
+}
+
+.welcome-section-heading{
+    padding-top: 15%;
+    padding-left: 47%;
+}
+
+.specialist-selection-heading{
+    padding-left: 44%;
+}
+
+#specialist-selector{
+    position: relative;
+    left: 42.8%;
+    margin-top: 10px;
+    width: 15.4%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.submit-button{
+    position: relative;
+    left: 45.7%;
+    margin-top: 10px;
+}
+
+.submit-button button{
+    width: 10%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#selected-specialist {
+    position: relative;
+    left: 42%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.go-to-queue-page-container{
+    position: relative;
+    left: 47%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*waiting list page*/
+table {
+    position: relative;
+    left: 38%;
+}
+
+table, th {
+    border: 1px solid black;
+}
+
+#get-data-from-jsonbin {
+    position: relative;
+    left: 45%;
+}

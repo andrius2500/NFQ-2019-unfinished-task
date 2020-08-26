@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>Queue page</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Selected specialist</th>
+            <th>Client waiting number</th>
+        </tr>
+        <tr>
+            <th>Doctor</th>
+            <th id="doctor-clients"></th>
+        </tr>
+        <tr>
+            <th>Programmer</th>
+            <th id="programmer-clients"></th>
+        </tr>
+        <tr>
+            <th>Musician</th>
+            <th id="musician-clients"></th>
+        </tr>
+        <tr>
+            <th>Mechanic</th>
+            <th id="mechanic-clients"></th>
+        </tr>
+    </table>
+    <button id="get-data-from-jsonbin">Refresh waiting list</button>
+    <script src="scripts/waiting-page/waiting-page-script.js"></script>
+</body>
+</html>

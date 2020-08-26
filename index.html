@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    <title>Administration page</title>
+</head>
+<body>
+    <h1 class="welcome-section-heading">Welcome!</h1>
+    <h2 class="specialist-selection-heading">Please select a specialist:</h2>
+    <div class="specialist-container">
+        <select name="specialists" id="specialist-selector">
+            <option value=""></option>
+            <option value="doctor">Doctor</option>
+            <option value="mechanic">Mechanic</option>
+            <option value="programmer">Programmer</option>
+            <option value="musician">Musician</option>
+        </select>
+    </div>
+    <div class="submit-button">
+        <button id="button">Submit</button>
+    </div>
+    <div class="specialist-number-paragraph-container">
+        <p id="selected-specialist"></p>
+    </div>
+    <div class="go-to-queue-page-container">
+        <a href="waiting-list-page.html" id="go-to-queue-page">Go to queue page</a>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
